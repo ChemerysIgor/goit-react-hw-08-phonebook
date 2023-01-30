@@ -11,11 +11,11 @@ import {
   HomeViewTitleBox,
 } from './HomeViewStyled';
 import { FaUserAlt } from 'react-icons/fa';
-import { useState } from 'react';
+// import { useState } from 'react';
 // import { Modal } from '../';
 
 export const HomeView = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  //   const [isModalOpen, setIsModalOpen] = useState(false);
 
   //   const toggleModal = () => {
   //     setIsModalOpen(!isModalOpen);

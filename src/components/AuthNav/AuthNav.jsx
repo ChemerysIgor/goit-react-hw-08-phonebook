@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { StyledLink } from 'components/Navigation/NavigationStyled';
 export const AuthNav = () => {
   return (
