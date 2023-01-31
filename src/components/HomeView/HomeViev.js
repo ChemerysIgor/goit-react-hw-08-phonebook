@@ -36,12 +36,7 @@ export const HomeView = () => {
           <ContactsInfo>You can add new contacts here</ContactsInfo>
         </ContactInfoWrapper>
 
-        <AddContactBtn
-          type="button"
-          //   onClick={toggleModal}
-        >
-          Add contact
-        </AddContactBtn>
+        <AddContactBtn to="/contacts">Add contact</AddContactBtn>
       </AddContactBox>
       {/* {isModalOpen && <Modal modalClose={toggleModal} />} */}
     </GreetingWraper>

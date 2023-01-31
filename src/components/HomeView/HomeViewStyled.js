@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const ContactsInfo = styled.p`
@@ -6,7 +7,7 @@ export const ContactsInfo = styled.p`
   text-align: center;
 `;
 
-export const AddContactBtn = styled.button`
+export const AddContactBtn = styled(NavLink)`
   text-decoration: none;
   text-align: center;
   color: #ffffff;

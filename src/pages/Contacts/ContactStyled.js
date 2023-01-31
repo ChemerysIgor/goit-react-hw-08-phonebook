@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const LogRegContainer = styled.div`
+export const Container = styled.div`
+  margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
   align-items: center;
-  gap: 10px;
 `;
